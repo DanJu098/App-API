@@ -18,7 +18,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Informações da API - Covid 19</Text>
+      <Text  style={styles.titulo}>Informações da API - Covid 19</Text>
       <StatusBar style="auto" />
 
       <FlatList
@@ -52,5 +52,9 @@ const styles = StyleSheet.create({
     backgroundColor:'#bbb',
     borderRadius: 5,
     textAlign:'center',
+  },
+  titulo:{
+    fontSize:30,
+    marginVertical:30
   }
 });
